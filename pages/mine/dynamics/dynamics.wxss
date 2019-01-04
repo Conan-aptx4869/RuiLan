@@ -1,0 +1,60 @@
+@import '../../../common/common.wxss';
+@import '../../../wxParse/wxParse.wxss';
+.info {
+  height: 210rpx;
+  background: #13b6f7;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 40rpx;
+  margin-bottom: 15rpx;
+}
+
+.info   .item {
+  text-align: center;
+  width: 50%;
+}
+.info   .item.total{
+  border-right: 1px solid #fff
+}
+.infoList {
+  background: #fff;
+}
+.infoList .item{
+
+  padding: 30rpx;
+  border-bottom: 1px solid #F5F5F5;
+  font-size: 24rpx;
+  color: #999;
+}
+.infoList .item  .container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.infoList .item  .container .name{
+  font-size: 30rpx;
+  color: #333;
+}
+.infoList .item  .container.owner{
+  margin-bottom: 10rpx;
+}
+.infoList .item  .container .point{
+  width: 10rpx;
+  height: 10rpx;
+  background: #FF4A4E;
+  border-radius: 50%;
+}
+
+.more{
+  width: 200rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  text-align: center;
+  color: #fff;
+  background: #13b6f7;
+  border-radius: 12rpx;
+  margin: 50rpx auto;
+}

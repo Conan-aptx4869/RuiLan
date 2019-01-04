@@ -1,0 +1,28 @@
+<view class='info'>
+    <view class='item total'>
+      <view class='title'>消息总计</view>
+        {{data.total}}
+    </view>
+     <view class='item notView'>
+      <view class='title'>未读</view>
+        {{data.temp}}
+    </view>
+</view>
+
+
+<view class='infoList'>
+  <view class='item' wx:for='{{data.rows}}'  bindtap='dynamicDetail'  data-content='{{item.content}}'  data-createTime='{{item.createTime}}' data-name='{{item.name}}' data-author='{{item.contractMasterName}}'>
+      <view class='container  owner'>
+        <view class='name'>{{item.name}}</view> 
+        <view class='point' wx:if='{{item.isActive==0}}'></view>
+      </view>
+      <view class='container'>
+          <!-- <view class='text'>
+            广昆高速回复可见的撒谎个客户
+          </view> -->
+          <view class='date'>{{item.time}}</view>
+      </view>
+  </view>
+</view>
+
+<view class='more' bindtap='loadingMore'>加载更多</view>

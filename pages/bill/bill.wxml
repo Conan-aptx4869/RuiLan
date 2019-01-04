@@ -1,0 +1,14 @@
+<view class='billList'>
+  <view class='item' bindtap='detailTap' data-detailed='profit'>
+    <text>收益付款明细</text>
+    <image src='/imgs/i4.png'></image>
+  </view>
+   <view class='item' bindtap='detailTap' data-detailed='business'>
+    <text>营业收入明细</text>
+    <image src='/imgs/i4.png'></image>
+  </view>
+   <view class='item'  bindtap='detailTap' data-detailed='cost'>
+    <text>成本支出明细</text>
+    <image src='/imgs/i4.png'></image>
+  </view>
+</view>

@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/mine/dynamics/dynamics",
+    "pages/mine/dynamics/dynamicsDetail/dynamicsDetail",
+    "pages/mine/modifyingData/modifyingData",
+    "pages/mine/mine",
+    "pages/bill/business/business",
+    "pages/bill/cost/cost",
+    "pages/find/find",
+    "pages/bill/bill",
+    "pages/bill/profit/profit"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#13B6F7",
+    "navigationBarTextStyle": "#fff"
+  },
+  "tabBar": {
+    "color": "#9B9B9B",
+    "borderStyle": "dadada",
+    "backgroundColor": "#fff",
+    "position": "bottom",
+    "selectedColor": "#13B6F7",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "imgs/home.png",
+        "selectedIconPath": "imgs/home_s.png"
+      },
+      {
+        "pagePath": "pages/bill/bill",
+        "text": "账单",
+        "iconPath": "imgs/bill.png",
+        "selectedIconPath": "imgs/bill_s.png"
+      },
+      {
+        "pagePath": "pages/find/find",
+        "text": "发现",
+        "iconPath": "imgs/find.png",
+        "selectedIconPath": "imgs/find_s.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "imgs/mine.png",
+        "selectedIconPath": "imgs/mine_s.png"
+      }
+    ]
+  }
+}

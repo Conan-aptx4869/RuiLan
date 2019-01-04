@@ -1,0 +1,19 @@
+<import src='../../../common/common.wxml'/>
+<template is='section'/>
+<view class='sectionTitle'>
+    <text>当前累计支出</text>  
+</view>
+<view class='walletList list'>
+  <view class='item'>
+    <text class='title'>水费</text>
+    <text class='value'>555555</text>
+  </view>
+   <view class='item'>
+    <text class='title'>电费</text>
+    <text class='value'>555555</text>
+  </view>
+   <view class='item'>
+    <text class='title'>物业费</text>
+    <text class='value'>555555</text>
+  </view>
+</view>

@@ -1,0 +1,29 @@
+<import src='../../common/common.wxml'/>
+<view class='login'>
+  <image src='{{faceImg}}' class='avatar'></image>
+  {{nickname}}
+</view>
+<template is='section'/>
+
+<view class='made'>
+  <view class='item'  bindtap='myOrder'>
+    <image src='/imgs/m1.png'></image>
+    <text>我的订单</text>
+  </view>
+  <view class='item' bindtap='modifyingData'>
+    <image src='/imgs/m3.png'></image>
+    <text>修改资料</text>
+  </view>
+  <!-- <view class='item'>
+    <image src='/imgs/m2.png'></image>
+    <text>修改密码</text>
+  </view> -->
+  <view class='item' bindtap='dynamics'>
+    <image src='/imgs/m4.png'></image>
+    <text>我的动态</text>
+  </view>
+  <!-- <view class='item'>
+    <image src='/imgs/m5.png'></image>
+    <text>绑定手机</text>
+  </view> -->
+</view>

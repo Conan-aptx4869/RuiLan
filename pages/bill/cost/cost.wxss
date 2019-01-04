@@ -1,0 +1,12 @@
+@import '../../../common/common.wxss';
+.section{
+  background: #13B6F7;
+  color: #fff;
+}
+
+.section .item{
+  color: #fff;
+}
+.section .item text{
+  color: #fff;
+}

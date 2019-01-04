@@ -1,0 +1,17 @@
+@import '../../common/common.wxss';
+.billList {
+  background: #fff;
+}
+.billList .item{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 125rpx;
+  border-bottom: 1px solid #F5F5F5;
+  padding: 0 30rpx;
+}
+.billList .item image{
+  width: 17rpx;
+  height: 30rpx;
+}

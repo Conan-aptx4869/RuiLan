@@ -1,0 +1,12 @@
+<template name='section'>
+  <view class='section'>
+    <view class='item'>
+      <view class='money'>9999.33</view>
+      <text>累计总收益(元）</text>
+    </view>
+    <view class='item'>
+      <view class='money'>9999.33</view>
+      <text>累计总收益(元）</text>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,36 @@
+@import '../../../common/common.wxss';
+.submit{
+  background: #13B6F7;
+  margin-top: 40rpx;
+  color: #fff;
+  border-radius:20rpx;
+  width: 70%; 
+}
+form .avatar{
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+}
+.modeData input[type='text']{
+  width: 75%;
+  height: 100%;
+  text-align: right;
+  padding-left: 30rpx;
+}
+.date{
+  width: 75%;
+  height: 100%;
+}
+.picker{
+  height: 125rpx;
+  line-height: 125rpx;
+  text-align: right;
+}
+radio-group label{
+  margin-right: 20rpx;
+}
+radio-group label radio{
+  margin-right: 5rpx;
+  transform:scale(0.8);
+}

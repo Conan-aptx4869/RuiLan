@@ -1,0 +1,73 @@
+<!--index.wxml-->
+<!-- <view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+</view> -->
+
+<view class='profitContainer'>
+  <picker mode="date" value="{{date}}" start=""end="{{date}}"
+bindchange="bindDateChange" >
+    <view class="picker date"> {{date}}</view>
+  </picker>
+
+
+  <view class='profitTitle'>当前收益（元）</view>
+  <view class='profitNum'>{{data[2].nowPayMoney}}</view>
+  <view class='profitProject'>
+    <view class='profitItem'>
+      <view class='title'>当日营业额（元）</view>
+      <view class='money'>{{data[2].nowInMoney}}</view>
+    </view>
+
+    <view class='profitItem'>
+      <view class='title'>当日成本（元）</view>
+      <view class='money'>{{data[2].nowOutMoney}}</view>
+    </view>
+  </view>
+</view>
+<view class='proInfoList'>
+  <view class='item'>
+    <view class='name'>
+      <image src='/imgs/i2.png'></image>
+      累计总收益
+    </view>
+    <view class='money'>{{data[2].allNowPayMoney}}</view>
+  </view>
+
+
+  <view class='item'>
+    <view class='name'>
+      <image src='/imgs/i1.png'></image>
+      累计总营收
+    </view>
+    <view class='money'>{{data[2].allNowInMoney}}</view>
+  </view>
+
+  <view class='item'>
+    <view class='name'>
+      <image src='/imgs/i3.png'></image>
+      累计总成本
+    </view>
+    <view class='money'>{{data[2].allNowOutMoney}}</view>
+  </view>
+</view>
+
+
+
+
+<button open-type="getUserInfo" bindgetuserinfo='authorized' class='loginBtn' wx:if='{{isShow==true}}'>
+  请授权登录
+</button>
+
+<view class='mask' wx:if='{{isShow==true}}'>
+</view>
+
+
+
+
+

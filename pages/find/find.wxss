@@ -1,0 +1,23 @@
+.listy{
+  padding: 30rpx;
+}
+.listy .item{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20rpx;
+}
+.listy .item .container{
+  width: 400rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+}
+.listy .item image{
+  width: 235rpx;
+  height: 165rpx;
+}
+.listy .item .date{
+  font-size: 24rpx;
+  color: #999;
+}
